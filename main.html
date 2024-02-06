@@ -1,0 +1,290 @@
+<html>
+
+<head>
+    <title>
+        hotel
+    </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="./img/" alt="">
+            </div>
+            <div id="navlinks">
+                <ul id="menulist">
+                    <li><a href="home"></a>home</li>
+                    <li><a href="about"></a>about</li>
+                    <li><a href="rooms"></a>rooms</li>
+                    <li><a href="pages"></a>pages</li>
+                    <li><a href="news"></a>news</li>
+                    <li><a href="contact"></a>contact</li>
+                    <li><i class="fa fa-search"></i></li>
+                    <li><button class="primary-btn">BOOK NOW</button></li>
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+
+        </div>
+    </header>
+    <script>
+        var menulist = document.getElementById('menulist');
+        menulist.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "100vh";
+            } else {
+                menulist.style.maxHeight = "0px"
+            }
+        }
+
+    </script>
+
+    <section class="home">
+        <div class="context">
+            <div class="owl-carousel owl-theme">
+                <!-- item-1 -->
+                <div class="item-1">
+                    <div class="item">
+                        <img src="./img/hotel.1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>spend your holiday</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero veniam, earum eaque vitae
+                        </p>
+                        <button class="primary-btn">READ MORE</button>
+                        <button class="secondary-btn">contact us</button>
+                    </div>
+                    <div class="flex">
+                    </div>
+                </div>
+                <!-- item-2 -->
+                <div class="item-2">
+                    <div class="item">
+                        <img src="./img/hotel.2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>spend your holiday</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero veniam, earum eaque vitae
+                        </p>
+                        <button class="primary-btn">READ MORE</button>
+                        <button class="secondary-btn">contact us</button>
+                    </div>
+                    <div class="flex">
+                    </div>
+                </div>
+                <!-- item-3 -->
+                <div class="item-3">
+                    <div class="item">
+                        <img src="./img/hotel.3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>spend your holiday</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero veniam, earum eaque vitae
+                        </p>
+                        <button class="primary-btn">READ MORE</button>
+                        <button class="secondary-btn">contact us</button>
+                    </div>
+                    <div class="flex">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book">
+        <div class="container flex_space">
+            <div class="text">
+                <h1><span>Book</span>Your Rooms</h1>
+            </div>
+            <div class="form">
+                <form action="grid">
+                    <input type="date" placeholder="Araival Date">
+                    <input type="date" placeholder="Depature Date">
+                    <input type="number" placeholder="Adults">
+                    <input type="number" placeholder="Childern">
+                    <input type="submit" placeholder="Chek AVIALABILITY">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="abuot top">
+        <div class="container flex">
+            <div class="left">
+                <div class="heading">
+                    <h1>Welcome</h1>
+                    <h2>Crowny Hotel</h2>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis excepturi voluptas architecto, ratione dolore nam adipisci iusto modi perspiciatis dolorem omnis ex, sed iste blanditiis eligendi laboriosam expedita, culpa dicta!</p>
+                <button class="primary-btn">About Us</button>
+            </div>
+            <div class="rigth">
+                <!-- <img src="./img/hotel.1.jpg" alt=""> -->
+            </div>
+        </div> 
+    </section>
+    <section class="couter top">
+        <div class="container grid">
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span>Customer</span>
+            </div>
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span>Customer</span>
+            </div>
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span>Customer</span>
+            </div>
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span>Customer</span>
+            </div>
+        </div>
+    </section>
+    <section class="rooms">
+        <div class="container top">
+            <div class="heading">
+                <h1>EXPLORE</h1>
+                <h2>our rooms</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga totam et id inventore </p>
+            </div>
+            <div class="content mtop">
+                <div class="owl-carousel owl-carousel  owl-theme">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./img/hotel.1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Supporior Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, necessitatibus dolor ex tempore veritatis </p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span><br> Per Night</span></h3>
+                            </div>
+                        </div>
+
+                    </div><div class="item">
+                        <div class="image">
+                            <img src="./img/hotel.2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Supporior Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, necessitatibus dolor ex tempore veritatis </p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span><br> Per Night</span></h3>
+                            </div>
+                        </div>
+
+                    </div><div class="item">
+                        <div class="image">
+                            <img src="./img/hotel.3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Supporior Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, necessitatibus dolor ex tempore veritatis </p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span><br> Per Night</span></h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 40,
+            nav: true,
+            dots: false,
+            navText: ["<i class ='fa fa-chevron-left'><i/>", "<i class ='fa fa-chevron-right'><i/>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2,
+                    margin: 10,
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+
+
+</body>
+<!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./fontawesome-free-6.2.1-web/js/all.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        navText: ["<i class ='fa fa-chevron-left'><i/>", "<i class ='fa fa-chevron-right'><i/>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+</script>
+
+</html>
+<div>
+    <h1></h1>
+</div>

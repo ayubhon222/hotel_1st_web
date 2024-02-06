@@ -1,0 +1,40 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [],
+        "compounds": []
+    },
+    "window.commandCenter": false,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 1,
+    "editor.renderWhitespace": "selection",
+    "editor.multiCursorModifier": "alt",
+    "editor.wordWrap": "off",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoSurround": "languageDefined",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActionsOnSave": {
+
+    },
+    "editor.colorDecoratorsLimit": 500,
+    "editor.defaultColorDecorators": false,
+    "editor.find.autoFindInSelection": "always",
+    "editor.find.seedSearchStringFromSelection": "never",
+    "editor.minimap.maxColumn": 150,
+    "editor.minimap.scale": 1,
+    "editor.minimap.showSlider": "mouseover",
+    "editor.minimap.side": "right",
+    "editor.minimap.size": "proportional",
+    "files.autoSaveDelay": 250,
+    "workbench.commandPalette.history": 100,
+    "workbench.experimental.cloudChanges.autoStore": "off",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "zenMode.fullScreen": false,
+    "screencastMode.mouseIndicatorColor": "#FF0000"
+}
